@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field{
+  width: 600px;
+  height: 600px;
+  background-color: #75FF6E;
+  position: relative;
+}
+
+.ball{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(#FFB555, #FFF94B);
+  position: absolute;
+  top: 250px;
+  left: 270px;
+  z-index: 5;
+}
+
+.ball2{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: linear-gradient(#3D28FF, #41FFE3);
+  position: absolute;
+  left: 235px;
+  top: 148px;
+  z-index: 9;
+}
+
+
+
+button{
+  margin: 7px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  outline: none;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.buttons1 button{
+  background-image: linear-gradient(#FFB555, #FFF94B);
+}
+
+.buttons2 button{
+  background-image: linear-gradient(#3D28FF, #41FFE3);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
